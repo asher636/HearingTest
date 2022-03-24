@@ -13,6 +13,10 @@
 		10F3258027ECED4B00F693EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F3257E27ECED4B00F693EA /* Main.storyboard */; };
 		10F3258227ECED4B00F693EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F3258127ECED4B00F693EA /* Assets.xcassets */; };
 		10F3258527ECED4B00F693EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F3258327ECED4B00F693EA /* LaunchScreen.storyboard */; };
+		10F3259527ECEEAF00F693EA /* 500Hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 10F3259127ECEEAF00F693EA /* 500Hz.wav */; };
+		10F3259627ECEEAF00F693EA /* 50Hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 10F3259227ECEEAF00F693EA /* 50Hz.wav */; };
+		10F3259727ECEEAF00F693EA /* 125Hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 10F3259327ECEEAF00F693EA /* 125Hz.wav */; };
+		10F3259827ECEEAF00F693EA /* 250Hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 10F3259427ECEEAF00F693EA /* 250Hz.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		10F3258127ECED4B00F693EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10F3258427ECED4B00F693EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10F3258627ECED4B00F693EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10F3259127ECEEAF00F693EA /* 500Hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 500Hz.wav; sourceTree = "<group>"; };
+		10F3259227ECEEAF00F693EA /* 50Hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 50Hz.wav; sourceTree = "<group>"; };
+		10F3259327ECEEAF00F693EA /* 125Hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 125Hz.wav; sourceTree = "<group>"; };
+		10F3259427ECEEAF00F693EA /* 250Hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 250Hz.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +65,9 @@
 			isa = PBXGroup;
 			children = (
 				10F3258F27ECEDA700F693EA /* Controller */,
+				10F3259927ECEF2000F693EA /* Helpers */,
 				10F3258E27ECED9D00F693EA /* Storyboards */,
+				10F3259027ECEE8500F693EA /* TestFrequencies */,
 				10F3258D27ECED8900F693EA /* Assets */,
 				10F3258C27ECED7A00F693EA /* Supporting Files */,
 			);
@@ -97,6 +107,24 @@
 				10F3257C27ECED4B00F693EA /* ViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		10F3259027ECEE8500F693EA /* TestFrequencies */ = {
+			isa = PBXGroup;
+			children = (
+				10F3259227ECEEAF00F693EA /* 50Hz.wav */,
+				10F3259327ECEEAF00F693EA /* 125Hz.wav */,
+				10F3259427ECEEAF00F693EA /* 250Hz.wav */,
+				10F3259127ECEEAF00F693EA /* 500Hz.wav */,
+			);
+			path = TestFrequencies;
+			sourceTree = "<group>";
+		};
+		10F3259927ECEF2000F693EA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,9 +185,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10F3259527ECEEAF00F693EA /* 500Hz.wav in Resources */,
+				10F3259727ECEEAF00F693EA /* 125Hz.wav in Resources */,
+				10F3259627ECEEAF00F693EA /* 50Hz.wav in Resources */,
 				10F3258527ECED4B00F693EA /* LaunchScreen.storyboard in Resources */,
 				10F3258227ECED4B00F693EA /* Assets.xcassets in Resources */,
 				10F3258027ECED4B00F693EA /* Main.storyboard in Resources */,
+				10F3259827ECEEAF00F693EA /* 250Hz.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
